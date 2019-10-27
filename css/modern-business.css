@@ -3,20 +3,58 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+
 body {
-  padding-top: 56px;
+    padding-top: 56px;
+    background: linear-gradient(90deg, #016064, #022036);
+    color: white;
 }
-
+.collapse.navbar-collapse {
+    background-color: #343a40;
+}
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
+.py-5.bg-dark {
+    background-color: black;
+}
+.container {
+    background: linear-gradient(to left, #2C3531, #116466 40%, #116466 60%, #2C3531 100%);
+}
+.card-header {
+    background-color: #113a66;
+}
+.card-footer {
+    background-color: #113a66;
+}
+.card-body{
+    background-color:#D9B08C;
+}
 .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+h1 {
+    font-family: 'Palatino Linotype';
+}
+h2 {
+    font-family: 'Palatino Linotype';
+}
+h3 {
+    font-family: 'Palatino Linotype';
+}
+h4 {
+    font-family: 'Palatino Linotype';
+    color: whitesmoke;
+}
+h5 {
+    font-family: 'Palatino Linotype';
+}
+h6 {
+    font-family: 'Palatino Linotype';
 }
